@@ -4,6 +4,7 @@ www.dio.me
 
 #### Autores
 - [Gleyson Sampaio](https://github.com/glysns)
+- [Emerson Borges](https://github.com/FittDev)
 
 ## Sintaxe - Desafio
 
