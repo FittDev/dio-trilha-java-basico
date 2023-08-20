@@ -1,3 +1,11 @@
+/* Projeto: ContaBanco
+ * Autor: Emerson Borges
+ * Objetivo: Simular a entrada de dados via terminal do nome de cliente e exibir uma 
+ * mensagem de saudaçoes e saldo no acesso
+ * Entrada: Nome, Agencia e conta conforme requisitos do projeto documentado no meu git (proposto pela DIO)
+ * Saida: Olá [" + Nome +"], obrigado por criar uma conta em nosso banco, sua agência é ["+ Agencia +"], conta "+ Conta + " e o seu saldo "+ Saldo + " já está disponível para saque"
+ */
+
 import java.util.Scanner;
 import java.util.Locale;
 
@@ -10,19 +18,19 @@ public class ContaTerminal {
         //TODO: Exibir as mensagens para o nosso usuário 
         System.out.println("Bem-vindo ao Banco Diginal Inovattion One...");
         //TODO: obter pela classe Scanner os valores digitados no terminal
-        int Numero=0;	      
+        int Numero = 0;	      
             
         Double Saldo = 1000.00;
-        System.out.print("Digite o seu Nome:");
+        System.out.print("Digite o seu Nome: ");
         String Nome = scanner.next();
-        System.out.print("Digite a sua Agencia");
+        System.out.print("Digite a sua Agencia: ");
         String Agencia = scanner.next();
 
-        System.out.print("Digite a sua Conta");        
+        System.out.print("Digite a sua Conta: ");        
         String Conta = scanner.next();
 
         //Em seguida exibir a mensagem conta criada
-        System.out.println("Olá " + Nome +", obrigado por criar uma conta em nosso banco, sua agência é "+ Agencia +", conta "+ Conta + " e seu saldo "+ Saldo + "já está disponível para saque");
+        System.out.println("Olá [" + Nome +"], obrigado por criar uma conta em nosso banco, sua agência é ["+ Agencia +"], conta "+ Conta + " e o seu saldo "+ Saldo + " já está disponível para saque");
 
     }
 }
